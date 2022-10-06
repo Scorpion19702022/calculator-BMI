@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="./scorpion.png" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+
+    <h1>Oblicz swoje BMI</h1>
+    <p class="text">Oblicz idealną masę ciała, która podpowie ci wskaźnik BMI. Sprawdź samodzielnie, czy Twoja waga jest
+        prawidłowa. Kalkulator BMI pozwoli ocenić swoją wagę wszystkim, bez względu na to, czy się odchudzają, czy nie.
+        Dostosuj się do porady specjalisty.
+    </p>
+
+    <div class="wrapper">
+        <div class="bmi">
+            <h2 class="bmi__heading">Zaczynamy? 😉</h2>
+
+            <p class="bmi__error">Musisz wypełnić wszystkie pola!!!</p>
+
+            <label for="bmiHight" class="bmi__label">Podaj swój wzrost w centymetrach, użyj tylko wartości
+                liczbowych:</label>
+            <input type="number" id="bmiHight" class="bmi__input">
+
+            <label for="bmiWeight" class="bmi__label">Podaj swoją wagę w kilogramach, użyj tylko wartości
+                liczbowych:</label>
+            <input type="number" id="bmiWeight" class="bmi__input">
+
+            <label for="bmiResults" class="bmi__label">Twoje BMI to:</label>
+            <input type="number" id="bmiResults" class="bmi__input-results" disabled>
+
+            <div class="bmi__btn">
+                <button class="bmi__btn-results">Sprawdź</button>
+                <button class="bmi__btn-clean">Wyczyść</button>
+            </div>
+
+            <div class="bmi__info">
+                <p class="bmi__info-box">Porada doktora Jacka 😁:</p>
+                <p class="bmi__info-advice">Wypełnij wszystkie pola bym mógł udzielić Ci porady.</p>
+                <p class="bmi__info-text"></p>
+
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
