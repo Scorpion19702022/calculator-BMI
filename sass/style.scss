@@ -10,12 +10,12 @@
 	--color-background: #000;
 	--color-backgroundTwo: #333;
 	--color-lightOne: #ddd;
-	--color-lightTwo: #f0e68c;
-	--color-lightThree: #bdb76b;
+	--color-lightTwo: #f1eaab;
+	--color-lightThree: #bdb987;
 	--color-error: #ff6347;
-	--color-opacityOne: rgba(221, 221, 221, 0.3);
-	--color-opacityTwo: rgba(240, 230, 140, 0.2);
-	--color-opacityThree: rgba(189, 183, 107, 0.5);
+	--color-opacityOne: rgba(221, 221, 221, 0.2);
+	--color-opacityTwo: rgba(240, 230, 140, 0.15);
+	--color-opacityThree: rgba(189, 183, 107, 0.3);
 }
 
 body {
@@ -76,7 +76,7 @@ h1 {
 	align-items: center;
 	width: 100%;
 	&__heading {
-		font-size: 2.2rem;
+		font-size: 1.6rem;
 		margin-bottom: 0.2em;
 		padding-bottom: 0.2em;
 		border-bottom: 1px solid var(--color-opacityThree);
@@ -121,8 +121,8 @@ h1 {
 		&-results,
 		&-clean {
 			position: relative;
-			padding: 0.4em 1.2em;
-			font-size: 1.2rem;
+			padding: 0.6em 1.2em;
+			font-size: 1rem;
 			font-weight: bold;
 			text-transform: uppercase;
 			color: var(--color-lightThree);
@@ -162,11 +162,11 @@ h1 {
 		border-radius: 12px;
 		padding: 1.4em;
 		width: 100%;
-		height: 350px;
+		height: 384px;
 		background-color: var(--color-lightThree);
 		&-box {
 			color: var(--color-background);
-			font-size: 1.2rem;
+			font-size: 1rem;
 			margin-bottom: 0.4em;
 			font-weight: bold;
 			display: flex;
@@ -176,6 +176,7 @@ h1 {
 			padding-top: 0.1em;
 			font-size: 1rem;
 			font-weight: bold;
+			text-align: center;
 			color: darkred;
 			display: none;
 		}
